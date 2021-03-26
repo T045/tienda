@@ -1,0 +1,134 @@
+*{
+	background-color: #f9f9f9;
+}
+
+.encabezado{
+	padding: 2px;
+	margin: 10px;
+}
+
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.caja{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 55px;
+	border: solid 1px #f9f9f9;
+	width: 32%;
+	height: 0.8em;
+	text-align: center;
+	display: inline-block;
+	padding: 2em;
+	color: #000;
+	text-decoration: none;
+}
+
+.caja:hover{
+	transition: .4s ease-in-out;
+	cursor: pointer;
+	color: #fff;
+}
+
+.cajas{
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.fifa{
+	background-color: #ffac99;
+}
+
+.fifa:hover{
+	background-color: #ff8266;
+}
+
+.fortnite{
+	background-color: #66ffba;
+}
+
+.fortnite:hover{
+	background-color: #33ffa3;
+}
+
+.cs_go{
+	background-color: #fff099;
+}
+
+.cs_go:hover{
+	background-color: #ffe866;
+}
+
+.dudas{
+	background-color: #9999ff;
+}
+
+.dudas:hover{
+	background-color: #6666ff;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 480px){
+
+	.encabezado h1{
+		font-size: 40px;
+		margin-left: 1.8em;
+	}
+
+   	.fifa, .cs_go, .dudas{
+   		width: 60%;
+	    font-size: 50px;
+	    margin-right: 0.4em;
+	    padding: 2em;
+   	}
+
+   	.fortnite{
+   		width: 65.525%;
+   		font-size: 40px;
+	    padding: 2.267em;
+	    height: 1.4666em;
+   	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px){
+
+	.encabezado h1{
+		font-size: 50px;
+		margin-left: 0.2em;
+	}
+
+   	.fifa, .cs_go, .dudas{
+   		width: 63%;
+	    font-size: 65px;
+	    margin-right: 0.4em;
+	    padding: 2em;
+   	}
+
+   	.fortnite{
+   		width: 61.299%;
+   		font-size: 60px;
+	    padding: 2.267em;
+	    height: 0.6663em;
+   	}
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px){
+
+	.encabezado h1{
+		font-size: 70px;
+	}
+
+	.fifa, .cs_go, .dudas{
+	    width: 62%;
+	    font-size: 90px;
+	}
+
+	.fortnite{
+		width: 66.223%;
+		font-size: 80px;
+		height: 1.4em;
+	}
+}
